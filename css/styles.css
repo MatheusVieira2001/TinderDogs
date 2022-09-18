@@ -1,0 +1,176 @@
+body{
+    font-family: 'Montserrat';
+}
+h1 {  font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;  
+    line-height: 1.5;  
+    font-weight: bold
+   }
+
+h2{
+    font-size: 3rem;
+    line-height: 2.4rem;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+
+
+/* seções */
+.secao-vermelha {
+    background-color: #f32c2c;
+    color: #fff;
+  }
+  
+  .secao-branca {
+    background-color: #fff;
+  }
+
+/* TITULO */
+  #title {
+    color: white;
+    text-align: left;
+}
+
+/* Container */
+#title .container-fluid{
+   padding: 3% 15%;
+}
+
+/* Menu */
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav.link{
+    font-size: 1.2rem;
+}
+
+
+/* Botoes */
+
+.download-btn{
+    margin: 5% 3% 4% 0;
+}
+
+/* Image */
+.vertical-img{
+    transform: rotate(25deg);
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
+@media (max-width: 1028px) {
+    
+#title {
+        text-align: center;
+      }
+
+.vertical-img{
+position: static;
+transform: rotate(0);
+    }
+}
+
+/* Características */
+
+
+#qualidades{
+   padding: 7% 15%;
+   position: relative;
+}
+
+.box-qualidade{
+    text-align: center;
+    padding: 5%;
+}
+
+/* Icones */
+.icone{
+    color:#f32c2c;
+    margin-bottom: 1rem;
+}
+.icone:hover{
+    color: tomato;
+}
+
+
+
+/* Comentarios */
+#comentarios{
+    text-align: center;
+}
+
+.image-comentarios{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+/* Marcas */
+#marcas{
+    text-align: center;
+}
+
+.marcas-logos{
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+
+/* preços */
+#precos{
+    padding: 7% 15%; 
+    text-align: center;
+}
+
+
+.precosca{
+    padding: 3% 2%;
+}
+
+
+
+
+/* footer download */
+#download-footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.ft-download{
+    font-size: 2.9rem;
+}
+
+#footer{
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.footer-logos{
+    margin-bottom: 50px;
+    padding: 1%;
+}
